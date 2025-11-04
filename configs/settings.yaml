@@ -1,0 +1,13 @@
+data_dir: "data/breakfast"
+features_dir: "features"
+results_dir: "results"
+fps: 5
+resize: [256, 256]
+window: 20
+stride: 5
+nms_window: 5
+feature_dim: 512
+pca_rank: 10           # k（≦W）。まずは10で開始
+tolerance_sec: 2.0     # F1@small の許容幅
+device: "cuda"         # "cpu"も可
+seed: 42
