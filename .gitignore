@@ -1,7 +1,23 @@
+# === Datasets & outputs (再生成OK/配布不可) ===
+/data/
+/features/
+/results/
+/tmp/
+/logs/
+
+# 大きい配列・学習物（保険）
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-.env/
-.venv/
-.micromamba/
+
+# OS/IDE
 .DS_Store
+.vscode/

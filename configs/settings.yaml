@@ -5,7 +5,7 @@ fps: 5
 resize: [256, 256]
 window: 20
 stride: 5
-nms_window: 5
+nms_window: 1
 feature_dim: 512
 pca_rank: 10           # k（≦W）。まずは10で開始
 tolerance_sec: 2.0     # F1@small の許容幅
